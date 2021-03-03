@@ -1,0 +1,52 @@
+.home{
+    padding: 16px;
+    .main-section{
+        display: flex;
+        .left-section{
+            // padding-right: 20px;
+            width: 60%;
+            .greeting-container{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                .greetings-content{
+                    width : 50%;
+                    margin-right: 120px;
+                    display : flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    
+                }
+            }
+            .recruitment-progress-container{
+                overflow: scroll;
+                .progress-header{
+                    margin: 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid $hr_grey2;
+                }
+                .table-row{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid $hr_grey2;
+
+                    td,th{
+                        display: flex;
+                        align-items: center;
+                        width : 150px
+                        // margin-right: 40px;
+                    }
+                }
+            }
+        }
+        .right-section{
+            width: 30%;
+        }
+    }
+}
